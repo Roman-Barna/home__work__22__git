@@ -14,3 +14,17 @@
     font-weight: 500;
 }
 /* slider */
+.slides li img{
+    filter: grayscale(100%);
+}
+.slider .indicators .indicator-item{
+width: 20px;
+height: 7px;
+border-radius: 0;
+top: -60px;
+background-color: rgba(0,0,0,0.4);
+z-index: 10000;
+}
+.slider .indicators .indicator-item.active {
+    background-color: #000;
+}
