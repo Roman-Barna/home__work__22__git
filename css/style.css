@@ -26,7 +26,7 @@ font-family: 'Quintessential', cursive;
     filter: grayscale(100%);
 }
 .grayscale:hover{
-   filter: grayscale(30%);
+   filter: grayscale(0%);
    transition: 0.8s ease;
 }
 .slider .indicators .indicator-item{
@@ -52,4 +52,7 @@ z-index: 10000;
 }
 .padding15{
     padding: 15px;
+}
+.fontsize{
+font-size: 18px;
 }
